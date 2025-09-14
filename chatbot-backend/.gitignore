@@ -1,0 +1,46 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+pnpm-lock.yaml
+
+# Build output
+dist/
+build/
+.out/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE & Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.cache
+*.pid
+*.seed
+*.log
+*.bak
+*.backup
+*.orig
+
+# Coverage & test outputs
+coverage/
+test-results/
+
+# Compiled code / bytecode
+*.clas*
